@@ -1,0 +1,102 @@
+
+.middleText {
+    color: white;
+}
+.post-left {
+        width: 10%;            
+        max-width: 15%;
+        border-radius: 15px 0 0 15px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        background-color: white;
+        color: #000;
+}
+.post-content {
+        width: 65%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;      
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    /* color: #fff; */
+    
+    background-size: 2000% 2000%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    /* display: grid; */
+	padding-left: 10%;
+	padding-right: 5%;
+}
+.imagee {
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin-top: 10px;
+}
+.popup {
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+.dot {
+    font-size: 20px;
+    float: right;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+@media(max-width:1050px){
+.resize{
+    visibility: hidden;
+}}
